@@ -1,3 +1,71 @@
-h1 {
-  color: fuchsia;
+body{
+    background-image:radial-gradient(circle, #BAFFC9,#8cc598);
+}
+#header{  
+  position: absolute;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  
+  
+  border:3px solid black;
+  margin:10px;
+  flex-wrap:wrap;
+  background-color:#dcf2f1;
+  
+}
+
+#mainScreen{
+  display: flex;
+  justify-content: center;
+  top: 10vh;
+  height: 80vh;
+  width: 100vw;
+  position: relative;
+}
+#footer{
+  position: absolute;
+  top: 90vh;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  
+  background-color:#baffc9;
+}
+#searchButton{
+    border:1px solid black;
+    border-style: outset;
+    background-color:#f1e0e0;
+    
+}
+#searchBar{
+    padding-top:20px;
+}
+
+/*DON'T TOUCH!*/
+
+.column{
+    width: 18%;
+    padding: 25px 0px;
+}
+
+.bookTitle p{
+    font-family:'Pridi';
+    font-size: 18px;
+    height: 100px;
+    font-weight: bold;
+    margin: 20px;
+}
+.bookAuthor p{
+    font-size: 18px;
+    height: 100px;
+    font-weight: bold;
+    margin: 20px;
+}
+.bookImage img{
+    display: block;
+    height: 100px;
+    width: auto;
+    margin: 20px;
 }
